@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+#root{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vp;
+  gap: 30px;
+}
+h3{
+  margin: 10px 0;
+  }
+h6{
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+p{
+  font-size: 14px;
+  line-height: 21px;
+}
+.container{
+  background-color: hwb(192 8% 63%);
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+  padding-top: 20px;
+  position:relative;
+  text-align: center;
+}
+.pro{
+  color:azure;
+  padding: 3px 7px;
+  font-weight: 14px;
+  position: absolute;
+  margin: 10px 10px;
+  top: 20px;
+  left:10px;
+  border-radius: 4px;
+}
+.online{
+  background: green;
+  }
+.offline{
+  background: red;
+}
+.img{
+  border: 3px solid white;
+  border-radius: 50%;
+  padding:7px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+button.primary{
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 25px;
+  font-family: 'Inter', sans-serif;
+}
+button.primary.outline{
+  background-color: transparent;
+}
+.skill{
+  background-color: rgb(18, 83, 99);
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+.skill ul{
+  text-align: left;
+  font-size: 12px;
+  padding:0px;
+  margin:0px;
+  }
+.skill ul li{
+  list-style-type: none;
+  border:1px solid rgb(73, 155, 175) ;
+  display: inline-block;
+  padding:7px;
+  margin: 0 7px 7px 0;
+}
